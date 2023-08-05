@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), #616e9f), url(Wallpaper.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main h1 {
+    font-size: 60px;
+    font-family: poppins;
+    margin-bottom: 30px;
+    font-style: bold;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    /* vertically */
+    justify-content: center;
+    /* horizontally */
+    width: 1000px;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+
+#search {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+}
